@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>My Electron App</title>
+</head>
+<body>
+  <h1>Hello from Electron!</h1>
+  <p id="msg"></p>
+
+  <script>
+    document.getElementById('msg').textContent = window.api.message();
+  </script>
+</body>
+</html>
