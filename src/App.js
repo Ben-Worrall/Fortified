@@ -22,6 +22,10 @@ function App() {
 
       {/*  url bar */}
       <div id='url-bar'>url</div>
+      {/*  url bar buttons */}
+      <button id='url-bar-leftArrow' className='urlButton'>◀</button>
+      <button id='url-bar-rightArrow' className='urlButton'>▶</button>
+      {/*<button id='url-bar-refresh-page' className='urlButton'>⟳</button>*/}
 
       {/*  options left */}
       <div id='options-left'>
@@ -38,7 +42,7 @@ function App() {
       {/*  search bar */}
       <div id='search-bar'>
         <input id='search-bar-input' type='text' placeholder='Search...' />
-        <button id='search-bar-button' className='SearchButton'>S</button>
+        <div id='search-bar-button' className='SearchButton'>🔍︎</div>
       </div>
 
     </div>
